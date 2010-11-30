@@ -13,5 +13,11 @@ namespace swedeapp.Controllers
 		{
 			return View();
 		}
+
+		[HttpPost]
+		public ActionResult ShouldI()
+		{
+			return View();
+		}
 	}
 }
